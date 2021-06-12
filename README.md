@@ -1,3 +1,13 @@
+## О том как запустить
+
+1. После клонирования, создать файл env из env.example и указать url приложения
+2. создать тестовую бд с кодировкой utf8_general_ci и настроить подключение в env
+3. Установить все зависимости "composer install"
+4. Сгенерировать ключ проекта "php artisan key:generate"
+5. Запустить миграции "php artisan migrate"
+6. Запустить фабрику "php artisan db:seed" или пункт 7
+7. Для проверки 3го задания нужно выполнить консольные команды "php artisan get_data:get categories" и "php artisan get_data:get products"
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
